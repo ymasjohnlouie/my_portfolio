@@ -92,23 +92,28 @@ CSS Reset*/
 	padding-top: 5px;
 }
 
+.dl_button {
+	padding-bottom: 25px;
+	padding-top: 10px;
+}
+
 #portfolio-section {
-	background-color: #3BD6C6;
+	background-color: white;
 	font-family: 'Ubuntu', sans-serif;
 }
 
 #projects,
-#contact {
+#contact, {
 	font-family: 'Ubuntu', sans-serif;	
 }
 
 footer {
-	background-color: gray;
+	background-color: #F5F5F5;
 }
 
 footer p,
 footer a {
-	color: white;
+	color: black;
 }
 
 #contact {
@@ -116,7 +121,12 @@ footer a {
 }
 
 #tech_row {
-	background-color: lightgray;
+	background-color: white;
+	padding: 20px 0px 25px 0px;
+}
+
+#projs {
+	padding-bottom: 25px;
 }
 
 #profile,
@@ -142,7 +152,7 @@ footer a {
 }
 
 #projects-section {
-	background-color: #55FFEE;
+	background-color: #F5F5F5;
 }
 
 #my_bio {
@@ -163,6 +173,10 @@ footer a {
 	text-transform: uppercase;
 }
 
+strong {
+	text-decoration: underline;
+}
+
 /*For Mobile Devices*/
 @media screen and (max-width: 480px) and (min-width: 320px){
 	.name,
@@ -171,7 +185,9 @@ footer a {
 	}
 
 	#copyright,
-	#links {
+	#links,
+	.my_skills,
+	.work_exp {
 		text-align: center;
 	}
 
@@ -189,5 +205,5 @@ footer a {
 
 /*For Tablets*/
 @media screen and (max-width: 1024px) and (min-width: 768px){
-	
+	/*CSS Rules To Apply*/
 }
