@@ -1,13 +1,16 @@
-// console.log('Hello world! I am ready for Full-Stack Web Development.')
+// $(function() {
+//   var text = $(".text");
+//   $(window).scroll(function() {
+//     var scroll = $(window).scrollTop();
 
-var deleteLog = false;
+//     if (scroll >= 200) {
+//       text.removeClass("hidden");
+//     } else {
+//       text.addClass("hidden");
+//     }
+//   });
+// });
 
-$(document).ready(function() {
-	$('#pagepiling').pagepiling({
-		menu: '#menu',
-		anchors: ['page1', 'page2', 'page3'],
-	    sectionsColor: ['white', '#515689', '#7dcec8', '#51bec4'],
-	    loopTop: true,
-	    loopBottom: true
-	});
+AOS.init({
+	duration: 1200,
 });
